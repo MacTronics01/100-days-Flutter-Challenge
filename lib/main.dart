@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_challange/screens/day2.dart';
+import 'package:flutter_challange/screens/day4.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.green,
       ),
-      home:  Day2AnimationContainer(key: null,),
+      home:  const Day4Dismissible(key: null,),
     );
   }
 }
