@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_challange/screens/day4.dart';
+import 'package:flutter_challange/screens/day5.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.green,
       ),
-      home:  const Day4Dismissible(key: null,),
+      home:   Day5AnimatedSwitcher(key: null,),
     );
   }
 }
