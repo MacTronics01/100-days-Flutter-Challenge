@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_challange/screens/day4.dart';
-import 'package:flutter_challange/screens/day5.dart';
-import 'package:flutter_challange/screens/day6.dart';
+import 'package:flutter_challange/screens/day8.dart';
 
 void main() {
   runApp(const MyApp());
@@ -19,7 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.green,
       ),
-      home:   Day6AnimatedList(key: null,),
+      home:   const Day8DraggableScrollableSheet(key: null,),
     );
   }
 }
