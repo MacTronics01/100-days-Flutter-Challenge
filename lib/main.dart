@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_challange/screens/day8.dart';
-import 'package:flutter_challange/screens/day9.dart';
+import 'package:flutter_challange/screens/day10.dart';
+
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.green,
       ),
-      home:   const Day9AbsorbPointer(key: null,),
+      home:    Day10DefaultTabControllerAndTabBar(key: null,),
     );
   }
 }
